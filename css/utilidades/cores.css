@@ -1,0 +1,32 @@
+:root {
+  --preto-max: #0d1117;
+  --preto-max: #111827;
+  --azul-marca: #2563eb;
+  --branco-puro: #f8fafc;
+  --cinza-claro: #e2e8f0;
+  --cinza-medio: #64748b;
+}
+
+.preto-max {
+  color: var(--preto-max);
+}
+.preto-suave {
+  color: var(--preto-max);
+
+}
+.azul-marca {
+  color: var(--azul-marca);
+
+}
+.branco-puro {
+  color: var(--branco-puro);
+
+}
+.cinza-claro {
+  color: var(--cinza-claro);
+
+}
+.cinza-medio {
+  color: var(--cinza-medio);
+
+}

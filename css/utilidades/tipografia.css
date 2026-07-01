@@ -1,0 +1,35 @@
+
+.texto-h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(3rem, 5vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 900;
+}
+
+.texto-h2 {
+    font: 900 3rem/1.1 "Playfair Display", serif;
+}
+
+.texto-h3 {
+    font: 900 2rem/1.2 "Playfair Display", serif;
+}
+
+.texto-h4 {
+    font: 700 1.5rem/1.2 "Playfair Display", serif;
+}
+
+.texto-p {
+  font: 400 1rem/1.5 "Inter", sans-serif;
+}
+
+.texto-small {
+  font: 400 0.875/1.4 "Inter", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.texto-overline {
+  font: 600 0.875/1.4 "Inter", sans-serif;
+  letter-spacing: 0.012em;
+  text-transform: uppercase;
+}

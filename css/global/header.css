@@ -1,0 +1,87 @@
+.header-bg {
+    width: 100%;
+    padding: 32px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    will-change: background-color;
+    transition:
+        background-color 0.3s ease,
+        padding 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.header-bg.scrolled {
+    background: rgba(11, 17, 32, 0.85);
+    backdrop-filter: blur(10px);
+}
+
+.header-logo a {
+  display: flex;
+  align-items: center;
+  transition: transform .3s ease;
+}
+
+.header-logo a:hover {
+  transform: translateY(-2px);
+}
+
+.header-logo img {
+  height: auto;
+  width: 80px;
+}
+
+.header-logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+}
+
+.header-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.itens-navegacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.itens-navegacao a {
+  padding: 10px 0 ;
+  position: relative;
+  transition: color .3s ease;
+}
+
+.itens-navegacao a:hover {
+  color: var(--azul-marca);
+}
+
+.itens-navegacao a::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: var(--azul-marca);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width .3s ease;
+}
+
+.itens-navegacao a:hover::before {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .itens-navegacao {
+    justify-content: center;
+  }
+}
+

@@ -1,0 +1,67 @@
+.protifolio-bg {
+  background-image: linear-gradient(to right, #01142c, #061430, #030c1c);
+  padding-bottom: 200px;
+}
+
+.portifolio-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px 0;
+}
+
+.portifolio-content span {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.portifolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 14px;
+  position: relative;
+}
+
+.portifolio-grid img {
+  object-fit: cover;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 16px;
+  position: relative;
+}
+
+.card-content {
+  position: relative;
+}
+
+.overlay-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  z-index: 33;
+  background-image: linear-gradient(
+    to top,
+    rgb(0, 0, 0) 0%,
+    rgba(11, 17, 32, 0.775) 50%,
+    rgba(11, 17, 32, 0.223) 100%
+  );
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.overlay-card span {
+  margin-bottom: 40px;
+  padding: 8px;
+  background-color: #030c1c8e;
+  width: max-content;
+  border-radius: 8px;
+}
+
+.overlay-card h4 {
+  margin-bottom: 16px;
+  font-weight: 600;
+}

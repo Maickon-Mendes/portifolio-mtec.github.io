@@ -1,0 +1,50 @@
+.diferenciais-bg {
+  background-color: var(--branco-puro);
+}
+
+.diferenciais-content span{
+  display: block;
+  text-align: center;
+  padding-top: 64px;
+  margin-bottom: 32px;
+  font-weight: 700;
+}
+
+.diferenciais-content h2 {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.diferenciais-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  padding-bottom: 150px;
+  gap: 24px;
+}
+
+.diferenciais-card {
+  text-align: center;
+  padding: 32px 14px;
+  border: 1px solid var(--cinza-claro);
+  border-radius: 8px;
+  box-shadow: 8px 0 10px var(--cinza-claro);
+  cursor: pointer;
+  transition: transform .3s ease ;
+}
+.diferenciais-card:hover {
+  box-shadow: 10px 0 12px var(--cinza-claro);
+  transform: translateY(-3px);
+}
+
+.diferenciais-card img {
+  margin: 0 auto;
+  margin-bottom: 14px;
+  width: 64px;
+  height: auto;
+}
+
+.diferenciais-card h3 {
+  font-weight: 700;
+  margin-bottom: 14px;
+}

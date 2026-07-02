@@ -1,0 +1,23 @@
+.btn {
+  display: block;
+  max-width: max-content;
+  padding: 10px 16px;
+  border: 1px solid var(--azul-marca);
+  border-radius: 8px;
+  transition: transform .3s ease;
+}
+
+.botao-primario {
+  background: var(--azul-marca);
+  color: var(--branco-puro);
+}
+
+.botao-secundario {
+  border-color: var(--branco-puro);
+  color: var(--branco-puro);
+}
+
+.botao-primario:hover,
+.botao-secundario:hover {
+  transform: translateY(-2px);
+}

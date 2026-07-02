@@ -1,6 +1,6 @@
 :root {
   --preto-max: #0d1117;
-  --preto-max: #111827;
+  --azul-escuro: #111827;
   --azul-marca: #2563eb;
   --branco-puro: #f8fafc;
   --cinza-claro: #e2e8f0;
@@ -11,7 +11,7 @@
   color: var(--preto-max);
 }
 .preto-suave {
-  color: var(--preto-max);
+  color: var(--azul-escuro);
 
 }
 .azul-marca {

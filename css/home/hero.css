@@ -1,0 +1,63 @@
+.hero-bg{
+  background-image:
+   linear-gradient(to right,#01142c,#061430,#030c1c
+    );
+  padding: 180px 0;
+}
+
+.hero-contain {
+  background-image: url(../../imagens/home-imagens/hero-bg-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 45%;
+}
+
+@media (max-width: 1050px) {
+  .hero-contain {
+    background-image:none;
+  }
+}
+
+.hero-sub-titulo  {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+  background-color: #191f347f;
+  padding: 14px;
+  border-radius: 8px;
+  max-width: max-content;
+}
+
+.hero-contain h1 {
+  max-width: 700px;
+  margin-bottom: 32px;
+}
+
+.hero-contain p {
+  max-width: 500px;
+  margin-bottom: 32px;
+}
+
+.botoes-hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.hero-destaques {
+  display: flex; 
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.hero-destaque-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hero-destaque-item span {
+  max-width: 110px;
+  line-height: 1.3;
+}

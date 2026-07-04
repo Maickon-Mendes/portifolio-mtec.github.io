@@ -22,6 +22,12 @@
   position: relative;
 }
 
+@media (max-width: 600px){
+  .portifolio-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+}
+
 .portifolio-grid img {
   object-fit: cover;
   width: 100%;

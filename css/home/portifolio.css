@@ -71,6 +71,8 @@
   font-weight: 600;
 }
 
-@media (max-width: 600px) {
-
+@media (max-width: 300px) {
+ .portifolio-grid {
+  grid-template-columns: 1fr;
+ }
 }

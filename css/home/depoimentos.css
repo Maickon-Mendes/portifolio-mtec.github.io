@@ -39,7 +39,7 @@
   line-height: 1.6;
   position: relative;
   max-width: 300px;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .depoimentos-card blockquote::before {
@@ -49,6 +49,8 @@
   color: var(--cinza-medio);
   width: max-content;
   height: 60px;
+  margin-bottom: 32px;
+
 }
 
 .depoimentos-estrela-avaliacao {

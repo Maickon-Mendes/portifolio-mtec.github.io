@@ -1,0 +1,79 @@
+.perguntas-bg {
+  background-color: var(--branco-puro);
+  padding: 64px 0;
+}
+
+.duvidas-overline {
+  display: block;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.duvidas-titulo {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.perguntas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.perguntas-content div {
+  margin-bottom: 16px;
+  padding: 12px;
+  border: 1px solid var(--cinza-claro);
+  border-radius: 16px;
+}
+
+.perguntas-content button{
+  border: none;
+  background: none;
+  margin-bottom: 10;
+}
+
+.perguntas-content button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+
+.perguntas-content button::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url(../../imagens/icones/perguntas/seta-abrir.svg);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  padding: 5px;
+  background-repeat: no-repeat;
+}
+
+.perguntas-content button:hover::after {
+  transform: scale(1.2);
+}
+
+
+.perguntas-content button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+
+.perguntas-content dd{
+  display: none;
+  margin-top: 16px;
+}
+
+.perguntas-content dd.ativa {
+  display: block;
+}
+
+
+
+@media (max-width: 1100px) {
+  .pergunta-img {
+  margin-top: 64px;
+}
+}

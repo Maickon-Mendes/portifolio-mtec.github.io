@@ -1,0 +1,32 @@
+.cta-bg {
+  background-image:
+   linear-gradient(to right,#043979,#0a2353,#030c1c
+    );
+    padding: 64px 0;
+}
+
+.cta-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.img-cta {
+  margin-bottom: 24px;
+  width: 100px;
+}
+
+.cta-content img {
+  width: 80px;
+}
+
+.cta-textos h1 {
+  margin-bottom: 24px;
+  max-width: 600px;
+}
+
+.cta-textos p {
+  margin-bottom: 24px;
+}

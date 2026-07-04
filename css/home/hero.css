@@ -33,6 +33,13 @@
   margin-bottom: 32px;
 }
 
+@media (max-width: 600px) {
+  .hero-contain h1 {
+  max-width: 300px;
+
+  }
+}
+
 .hero-contain p {
   max-width: 500px;
   margin-bottom: 32px;

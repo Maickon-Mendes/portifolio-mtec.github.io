@@ -1,7 +1,7 @@
 
 .texto-gg {
   font-family: "Roboto", serif;
-  font-size: clamp(4rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 5vw, 4rem);
   line-height: 0.9;
   font-weight: 600;
 }

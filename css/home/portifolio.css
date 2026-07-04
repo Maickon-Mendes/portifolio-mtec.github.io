@@ -1,10 +1,11 @@
 .protifolio-bg {
   background-image: linear-gradient(to right, #01142c, #061430, #030c1c);
-  padding-bottom: 200px;
+  padding-bottom: 64px;
 }
 
 .portifolio-content {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 64px 0;
@@ -12,20 +13,18 @@
 
 .portifolio-content span {
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+.portifolio-content h2 {
+  margin-bottom: 24px;
 }
 
 .portifolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 14px;
+  gap: 20px;
   position: relative;
-}
-
-@media (max-width: 600px){
-  .portifolio-grid {
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-}
 }
 
 .portifolio-grid img {
@@ -70,4 +69,8 @@
 .overlay-card h4 {
   margin-bottom: 16px;
   font-weight: 600;
+}
+
+@media (max-width: 600px) {
+
 }

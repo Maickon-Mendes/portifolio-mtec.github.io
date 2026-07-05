@@ -2,7 +2,7 @@
   background-image:
    linear-gradient(to right,#01142c,#061430,#030c1c
     );
-  padding: 180px 0;
+  padding: 100px 0;
 }
 
 .hero-contain {
@@ -21,7 +21,7 @@
 .hero-sub-titulo  {
   display: flex;
   gap: 10px;
-  margin-bottom: 24px;
+  margin-bottom: 50px;
   background-color: #191f347f;
   padding: 14px;
   border-radius: 8px;
@@ -30,7 +30,7 @@
 
 .hero-contain h1 {
   max-width: 700px;
-  margin-bottom: 32px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 600px) {
@@ -71,6 +71,6 @@
 
 @media (max-width: 600px) {
   .hero-bg {
-    padding-top: 280px;
+    padding: 64px 0;
   }
 }

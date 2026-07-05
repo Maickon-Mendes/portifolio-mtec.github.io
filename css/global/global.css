@@ -2,7 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 *,
 *::before,
 *::after {
@@ -45,7 +44,14 @@ blockquote {
   margin: 0 auto;
   padding: 0 32px;
   box-sizing: border-box;
-
 }
 
+section, article {
+  scroll-margin-top: 120px; 
+}
 
+main .container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+}

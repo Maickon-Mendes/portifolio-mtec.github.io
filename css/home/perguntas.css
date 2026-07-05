@@ -1,6 +1,5 @@
 .perguntas-bg {
   background-color: var(--branco-puro);
-  padding: 64px 0;
 }
 
 .duvidas-overline {
@@ -16,7 +15,7 @@
 
 .perguntas-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .perguntas-content div {

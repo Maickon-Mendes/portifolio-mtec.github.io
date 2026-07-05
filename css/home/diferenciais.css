@@ -1,11 +1,11 @@
 .diferenciais-bg {
   background-color: var(--branco-puro);
+  
 }
 
 .diferenciais-content span{
   display: block;
   text-align: center;
-  padding-top: 64px;
   margin-bottom: 32px;
   font-weight: 700;
 }
@@ -19,7 +19,6 @@
 .diferenciais-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  padding-bottom: 150px;
   gap: 24px;
 }
 

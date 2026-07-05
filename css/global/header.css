@@ -4,7 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 1000;
     will-change: background-color;
     transition:
         background-color 0.3s ease,
@@ -13,7 +13,7 @@
 }
 
 .header-bg.scrolled {
-    background: rgba(11, 17, 32, 0.85);
+    background: rgba(11, 17, 32, 0.86);
     backdrop-filter: blur(10px);
 }
 
@@ -85,3 +85,28 @@
   }
 }
 
+@media (max-width: 600px) {
+  .header-bg {
+    background: rgb(11, 17, 32);
+    position: relative;
+
+  }
+  .header-conteudo {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .itens-navegacao {
+    flex-direction: column;
+    margin-bottom: 32px;
+  } 
+
+  .header-logo {
+  margin-bottom: 32px;
+  }
+
+  section, article {
+  scroll-margin-top: 0px; 
+}
+}
